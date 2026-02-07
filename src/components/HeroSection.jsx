@@ -3,7 +3,7 @@ import video2 from "../assets/video2.mp4";
 
 function HeroSection() {
   return (
-    <div className="mt-6 flex flex-col items-center">
+    <div className="mt-2 flex flex-col items-center">
       <h1 className="text-center text-4xl tracking-wide sm:text-6xl lg:text-7xl">
         VirtualR build Tools{" "}
         <span className="bg-gradient-to-r from-orange-500 to-red-800 bg-clip-text text-transparent">
@@ -26,12 +26,12 @@ function HeroSection() {
           Documentation
         </a>
       </div>
-      <div className="mt-10 flex flex-col items-center space-x-4 sm:flex-row">
+      <div className="mt-10 flex flex-col items-center sm:flex-row">
         <video
           autoPlay
           muted
           loop
-          className="my-4 w-1/2 rounded-lg border border-orange-700 shadow-orange-400"
+          className="mx-3 my-4 rounded-lg border border-orange-700 shadow-orange-400 sm:w-1/2"
         >
           <source src={video1} type="video/mp4" />
           Your browser does not support the video tag
@@ -40,7 +40,7 @@ function HeroSection() {
           autoPlay
           muted
           loop
-          className="my-4 w-1/2 rounded-lg border border-orange-700 shadow-orange-400"
+          className="my-4 rounded-lg border border-orange-700 shadow-orange-400 sm:w-1/2"
         >
           <source src={video2} type="video/mp4" />
           Your browser does not support the video tag
